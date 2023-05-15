@@ -8,7 +8,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building rick after 888 update ..'
-                echo "${NEW_VERSION}"
+                echo "bUILDING NEW VERSION: ${NEW_VERSION}"
             }
         }
         stage('Test') {
